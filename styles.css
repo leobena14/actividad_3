@@ -20,3 +20,18 @@ align-items: flex-start;
 img{
     border-radius: 5%;
 }
+
+iframe{
+     height:20em;
+     flex-basis: 45%;
+}
+
+.empresa{
+    display:flex;
+    gap: 5%;
+align-items: flex-start;
+}
+
+.datos-empresa{
+    flex-basis: 50%;
+}
