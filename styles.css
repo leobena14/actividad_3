@@ -6,5 +6,17 @@ body{
     width:80%;
     height: 100vh;
     margin:0 auto;
+    border: 0.1em solid black;
+    padding: 5%;
+    
 }
 
+#datos-personales{
+    display:flex;
+    gap:5%;
+align-items: flex-start;
+}
+
+img{
+    border-radius: 5%;
+}
