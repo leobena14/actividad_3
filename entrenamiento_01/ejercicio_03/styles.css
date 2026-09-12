@@ -1,0 +1,46 @@
+*{
+     box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    margin:0 auto;
+    right: 0;
+    background-color: whitesmoke;
+    border:0.01em solid black;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+body{
+    width:80%;
+    margin:0 auto;
+    padding-top: 7em;
+    height: 100vh;
+}
+
+h2{
+    scroll-margin-top: 6em;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    border: 0.03em solid black;
+    margin-bottom: 3em;
+    background-color: aquamarine;
+    padding: 1em;
+}
+.titulo a {
+    font-size: 1.5em;
+}
+
