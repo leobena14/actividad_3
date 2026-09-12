@@ -35,3 +35,26 @@ align-items: flex-start;
 .datos-empresa{
     flex-basis: 50%;
 }
+
+.datos-de-estudio{
+    display:flex;
+    gap: 5%;
+align-items: flex-start;
+}
+
+.imagen-estudios{
+    width: 40%;
+    height: auto;
+}
+
+.bloque-de-imagenes{
+    display:flex;
+    flex-direction: column;
+    gap:3em;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.bloque-de-texto{
+    flex-basis: 50%;
+}
